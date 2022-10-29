@@ -1,0 +1,23 @@
+console.log("hello world");
+var age;
+var male;
+var female;
+var income;
+var tax;
+
+function calculate(){
+    age=document.getElementById("age").value;
+    male=document.getElementById("male").value;
+    female=document.getElementById("female").value;
+    income=document.getElementById("income").value;
+   
+    console.log(document.getElementById("age").value);
+    console.log(document.getElementById("income").value);
+    if((age > 18)){
+        tax=income/12;
+        document.getElementById("taxamount").value=tax;
+    }
+    else{
+        document.getElementById("taxamount").value="you are tax free";
+    }
+}

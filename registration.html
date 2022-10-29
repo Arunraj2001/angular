@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>regestration</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div>
+            <ul>
+                <li><a href="test.html"></a> home</li>
+                <li><a href="test.html"></a> about</li>
+                <li><a href="test.html"></a> registration</li>
+                <li><a href="test.html"></a> link</li>
+            </ul>
+        </div>
+    
+        <form method="post"action="registration.html">
+        <div>
+            <h1> registration form </h1>
+        </div>
+       <div>
+        <lable>NMAE :</lable> <input type="text" id="fname" name="fname" value="arun" required autofocus placeholder="enter name">
+       </div> </br>
+       <div>
+               <lable>LAST NAME :</lable><input type="text" id="lname" name="lname"  placeholder="last name">
+            </div></br>
+<div>
+    <lable>DOB :</lable><input type="date">
+</div></br>
+<div>
+    <lable>EMAIL :</lable><input type="email" autocomplete="off" maxlength="16"> 
+</div></br>
+<div>
+    <lable>GENDER :</lable> <input type="radio" name="gender" value="male">male
+    <input type="radio" name="gender" value="female">female
+</div></br>
+<div>
+    <lable>HOBBIE :</lable> <input type="checkbox" value="reading">read
+    <input type="checkbox" value="singing">sing
+    <input type="checkbox" checked value="playing">play
+    <input type="checkbox" value="dancing">dance
+</div></br>
+<div>
+    <lable>city</lable> <select name="city">
+        <option name="city" value="chennai">chennai</option>
+        <option name="city" selected value="trichy">trichy</option>
+        <option name="city" value="thanjai">thanjai</option>
+        <option name="city" value="perambalur">perambalur</option>
+    </select>
+</div></br>
+<div>
+    <lable>PASSWORD :</lable> <input type="password" placeholder="xxxxxxxxxxx">
+</div></br>
+<div>
+    <lable>UPLOAD FILE :</lable> <input type="file">
+</div></br>
+<div>
+    <input type="submit" value="submit">
+    <input type="reset" value="reset">
+</div><br>
+</form>
+<script src="customer-model.js"></script>
+    </body>
+</html>

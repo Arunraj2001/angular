@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>registration form</title>
+        <!-- <link rel="stylesheet" href="custom.css"> -->
+        
+        <script>
+            document.write("injecting text using javascript");
+            document.write("<h1>learning javascript<h1>")
+        </script>
+        <script >
+        alert('arun');
+            console.log('a messege in console');
+    </script>
+    </head>
+    <body>
+        <h1 class="hdg">javascript method & events</h1>
+        <p id="randtxt" title="random text">
+            we are disscussing about various event and methods of javascript
+        </p>
+        <h2 class="hdg">document object undersanding</h2>
+        <h3 class="hdg">js event undersanding</h3>
+        <button onclick="changehdgstyle()">change heading style</button>
+<br>
+       <div>
+        <select id="cites" onchange="selectedcity()">
+            <option value="chn">chennai</option>
+            <option value="ben">bengalur</option>
+            <option value="hyd">hydrapad</option>
+            <option value="tri">trichy</option>
+           </select>
+           selected ciyt=<span id="slctval"></span>
+        </div>
+
+        <div>
+            <button id="btnsubmit" onmouseover="mouseoveraction()" onmouseout="mouseoutaction()">submit</button>
+        </div>
+        <div>
+            <input type="text" id="nmtxt" name="name" onkeypress="keypressaction()"><br/>
+            <button ><p id="txt">value entered:</p></button>
+        </div>
+        
+
+        <script src="custom.js">
+       
+        </script>
+       
+    </body>
+</html>

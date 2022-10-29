@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tax calculation</title>
+    </head>
+    <body>
+            <h1>Tax calculation</h1>
+            
+            Name:<input type="text" id="name" ><br><br>
+            salary:<input type="text" id="sal"><br><br>
+            Age:<input type="number" id="age"><br><br>
+            Gender:<input type="radio" name="gender" >Male
+                <input type="radio" name="gender">Female<br><br>
+                <button  onclick="scl()">salary</button><br><br>
+                <!-- <button onclick="ret()">Result</button> -->
+            TAX RESULT:<input type="text" id="RESULT" readonly><br><br>
+            <hr>
+            <h1 id="tery">terinar operator</h1>
+            A <input type="number" id="value1"><br><br>
+            B<input type="number" id="value2"><br><br>
+            <button onclick="terybtn()">button</button><br><br>
+               
+          <p id="tery_para"></p>
+          <hr>
+
+          <h1>STRING METHOD</h1>
+           <input type="text" id="string">
+          <button onclick="stringbtn()">string</button>
+          <p id="stnglh"></p>
+          <p id="stngrp"></p>
+          <p id="stnguc"></p>
+          <p id="stnglc"></p>
+          <p id="stngcct"></p>
+          <p id="stngtrm"></p>
+          <p id="stngcat"></p>
+          <p id="stngidf"></p>
+          <p id="stngsl"></p>
+          <p id="stngsbst"></p>
+          <p id="stngspt"></p>
+ <hr>
+    <input id="age" type="text" >
+    <button onclick="switchbtn()">AGE</button>  
+    <P id="value"></P>   
+    <hr>
+    <P>available fruits</P>  
+    <ul id="fruitss"></ul> 
+          
+
+
+        
+        <script src=tax.js></script>
+    </body>
+</html>

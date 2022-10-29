@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <title>grade</title>
+        <style>
+            .btn{
+                background-color: aquamarine;
+                margin: auto;
+                border: 150px;
+                text-align: center;
+            }
+        </style>
+    
+    </body>
+
+    <div class="btn">
+        <h1> GRADE </h1>
+       <lable>NAME </lable><br>
+       <input type="text" id="name" >
+        <br><br>
+        <lable>CLASS</lable><br>
+        <input type="text" id="class">
+        <br><br>
+        <lable>SECTION</lable><br>
+        <input type="text" id="section">
+        <br><br>
+        <lable>TAMIL</lable><br>
+        <input type="number" name="tamil" id="tamil" required max="100">
+        <br><br>
+        <lable>ENGLISH</lable><br>
+        <input type="number" name="english" id="english" required max="100">
+        <br><br>
+        <lable>MATHS</lable><br>
+        <input type="number" name="maths" id="maths"required max="100">
+        <br><br>
+        <lable>CHEMISTRY</lable><br>
+        <input type="number" name="chemistry" id="chemistry"required max="100">
+        <br><br>
+        <lable>PHYSICS</lable><br>
+        <input type="number" name="physics" id="physics"required max="100">
+        <br><br>
+        <lable>COMPUTER SCIENCE</lable><br>
+        <input type="number" name="compsci" id="compsci"required max="100">
+        <br><br>
+        <button onclick="calculate()">calculate</button>
+    </div>
+    <div>
+    <p id="pName"></p>
+    <p id="pClass"></p>
+    <p id="pSection"></p>
+    <p id="pTamil"></p>
+    <p id="pEng"></p>
+    <p id="pMat"></p>
+    <p id="pChe"></p>
+    <p id="pPhy"></p>
+    <p id="pCs"></p>
+    </div>
+<script src="gradestyle.js"></script>
+</html>
